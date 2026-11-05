@@ -1,0 +1,88 @@
+/* Global CSS Reset & Base Styles - Part B (Function Component & Hooks) */
+:root {
+  /* Light theme variables */
+  --primary-color: #3b82f6;
+  --primary-hover: #2563eb;
+  --primary-light: #eff6ff;
+  --secondary-color: #64748b;
+  --secondary-hover: #475569;
+  --danger-color: #ef4444;
+  --danger-hover: #dc2626;
+  --danger-light: #fef2f2;
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+
+  --bg-color: #f8fafc;
+  --card-bg: #ffffff;
+  --card-header-bg: #f8fafc;
+  --border-color: #e2e8f0;
+  --border-focus: #3b82f6;
+  --input-bg: #ffffff;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+  --footer-total-bg: #f1f5f9;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+}
+
+/* Dark theme variables for useContext */
+[data-theme='dark'] {
+  --primary-color: #60a5fa;
+  --primary-hover: #3b82f6;
+  --primary-light: #1e293b;
+  --secondary-color: #94a3b8;
+  --secondary-hover: #cbd5e1;
+  --danger-color: #f87171;
+  --danger-hover: #ef4444;
+  --danger-light: #450a0a;
+  --success-color: #34d399;
+  --warning-color: #fbbf24;
+
+  --bg-color: #0f172a;
+  --card-bg: #1e293b;
+  --card-header-bg: #192231;
+  --border-color: #334155;
+  --border-focus: #60a5fa;
+  --input-bg: #0f172a;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --text-light: #64748b;
+  --footer-total-bg: #131d2e;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color var(--transition-normal), color var(--transition-normal);
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+}

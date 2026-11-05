@@ -1,0 +1,58 @@
+export const initialExpenses = [
+  {
+    id: '1',
+    title: 'Cơm trưa sườn trứng nướng',
+    amount: 45000,
+    category: 'Ăn uống',
+    date: '2026-11-01',
+  },
+  {
+    id: '2',
+    title: 'Đổ xăng xe máy Wave Alpha',
+    amount: 70000,
+    category: 'Đi lại',
+    date: '2026-11-01',
+  },
+  {
+    id: '3',
+    title: 'Mua giáo trình Lập trình Web PTIT',
+    amount: 85000,
+    category: 'Học tập',
+    date: '2026-11-02',
+  },
+  {
+    id: '4',
+    title: 'Vé xem phim cuối tuần cùng bạn bè',
+    amount: 110000,
+    category: 'Giải trí',
+    date: '2026-11-02',
+  },
+  {
+    id: '5',
+    title: 'Trà sữa matcha trân châu đường đen',
+    amount: 40000,
+    category: 'Ăn uống',
+    date: '2026-11-03',
+  },
+  {
+    id: '6',
+    title: 'Thẻ xe bus tháng sinh viên',
+    amount: 100000,
+    category: 'Đi lại',
+    date: '2026-11-03',
+  },
+  {
+    id: '7',
+    title: 'Khóa học React Hooks trên Coursera',
+    amount: 299000,
+    category: 'Học tập',
+    date: '2026-11-04',
+  },
+  {
+    id: '8',
+    title: 'Vé khu vui chơi giải trí cuối tuần',
+    amount: 75000,
+    category: 'Giải trí',
+    date: '2026-11-04',
+  },
+];

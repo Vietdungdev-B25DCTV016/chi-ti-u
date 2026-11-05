@@ -1,0 +1,23 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependencies
+node_modules/
+part-a-class/node_modules/
+part-b-hooks/node_modules/
+
+# Production builds
+dist/
+part-a-class/dist/
+part-b-hooks/dist/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
