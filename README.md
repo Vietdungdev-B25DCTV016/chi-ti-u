@@ -2,9 +2,9 @@
 ## Ứng dụng "Sổ Chi Tiêu Cá Nhân" (Personal Expense Tracker)
 
 > **Mã học phần:** RIPT1306-20261-07  
-> **Sinh viên thực hiện:** [Điền Họ và Tên của bạn tại đây]  
-> **Mã sinh viên:** [Điền Mã Sinh Viên tại đây]  
-> **Lớp:** [Điền Lớp tại đây]  
+> **Sinh viên thực hiện:** Việt Dũng  
+> **Mã sinh viên:** B25DCTV016  
+> **Repository GitHub:** [https://github.com/Vietdungdev-B25DCTV016/chi-ti-u](https://github.com/Vietdungdev-B25DCTV016/chi-ti-u)  
 > **Trạng thái kho lưu trữ:** PUBLIC  
 
 ---
@@ -206,8 +206,7 @@ git commit -m "feat: complete LTW Lab 03 - Personal Expense Tracker (Part A Clas
 # 2. Đổi nhánh chính sang main
 git branch -M main
 
-# 3. Tạo một Repository mới trên GitHub của bạn và đặt chế độ PUBLIC
-# Sau đó liên kết và push (thay URL bằng link repo của bạn):
-git remote add origin https://github.com/<tai-khoan-cua-ban>/<ten-repo>.git
+# 3. Đã liên kết với repository của bạn:
+git remote add origin https://github.com/Vietdungdev-B25DCTV016/chi-ti-u.git
 git push -u origin main
 ```
